@@ -1,0 +1,281 @@
+#include <Stdio.h>
+#include <string.h>
+#include <unistd.h>
+#include <stdbool.h>
+int main()
+{
+    char continue1,continue2,continue3,yesNo1;
+    bool isLoop1;
+
+
+    int loadingscreen1;
+    int yesno2;
+    char loading[18] = {'E', 'S', 'C', 'A','P', 'E', 'F', 'R','O', 'M', 'Y','O','U', 'R', 'S', 'E','L','F' };
+
+    printf("                                                           Loading : ");
+    for (loadingscreen1 = 0; loadingscreen1 < 18; loadingscreen1++) {
+        printf("%c\b", loading[loadingscreen1 % 18]);
+        fflush(stdout);
+        usleep(400000);
+    }
+
+    printf("\n");
+
+
+
+
+    int loadingscreen2;
+    char loading2[18] = {'E', 's', 'c', 'a', 'p', 'e','F', 'r', 'o', 'm', 'Y', 'o', 'u', 'r', 's', 'e', 'l', 'f' };
+    printf("                                                         ");
+    for (loadingscreen2 = 0; loadingscreen2 < 18; loadingscreen2++) {
+        printf("%c", loading[loadingscreen2 % 18]);
+        fflush(stdout);
+        usleep(100000);
+    }
+
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("                                                    [Pls Enter any key and Enter]\n");
+    scanf("%s");
+
+    system("cls");
+
+
+    int loadingscreen3;
+    char loading3[4] = {'|', '/', '-', '\\'};
+
+    printf("                                                           Loading ");
+    for (loadingscreen3 = 0; loadingscreen3 < 50; loadingscreen3++) {
+        printf("%c\b", loading3[loadingscreen3 % 4]);
+        fflush(stdout);
+        usleep(100000);
+    }
+    printf("\n");
+    printf("                                                  [Pls Enter any key and Enter]");
+    scanf("%s");
+    system("cls");
+
+
+
+
+printf("            :^                                    \n");usleep(10000);
+printf("       ?G?                                .~.     \n");usleep(10000);
+printf("       .                                  .YB7    \n");usleep(10000);
+printf("              :.                  ..        ^~    \n");usleep(10000);
+printf("   .          .J7                ~7               \n");usleep(10000);
+printf("  :?            5?              ~5           .!   \n");usleep(10000);
+printf("  Y^            .B:             P!            !J  \n");usleep(10000);
+printf(" :G     .^~7?7777G~             GJ777?J?!~^:.  G: \n");usleep(10000);
+printf(" ^#. ^!?7J###P.  ?J            .G:. ?B##J^~!7?7G: \n");usleep(10000);
+printf("  5J?7^. ^G##P.  J?            .G.  J###?     !P  \n");usleep(10000);
+printf("  :#!     :~~.  ^P.             ?Y   ^!^      5!  \n");usleep(10000);
+printf("  ^@B7.       .!5:              ~@Y:        ^Y7   \n");usleep(10000);
+printf("   JP~??!^^^~7??~                JB??!~^^~!??:    \n");usleep(10000);
+printf("    ?? .^~~~^.^?.                 !J~^~~~~:.      \n");usleep(10000);
+printf("     ~?!::::.7?.                .  .~~^           \n");usleep(10000);
+printf("       :~^:.~^                  ^7                \n");usleep(10000);
+printf("                                 J~               \n");usleep(10000);
+printf("                                 .5.              \n");usleep(10000);
+printf("                    :~7777!~^.   ~5               \n");usleep(10000);
+printf("                  ~5P5?7~~~~!!77!~ ~:             \n");usleep(10000);
+printf("                ^GG7.           .~?.              \n");usleep(10000);
+printf("               ^#5                ::              \n");usleep(10000);
+printf("               .^                                 \n");usleep(10000);
+
+
+    char story1[]= "After a grueling day of work, you finally return to your modest home, longing for a good night's sleep.\nYour heavy eyelids droop, and the promise of your cozy bed lures you like a siren's call.\nWith a sigh of relief, you leap onto your  welcoming mattress, craving the embrace of dreams. ";
+    char *token1;
+
+    printf("[y/n]");
+
+    while (getchar() != '\n');
+
+    token1 = strtok(story1, " ");
+    while (token1 != NULL)
+    {
+        printf("%s ",token1);
+        fflush(stdout);
+        usleep(100000);
+        token1 = strtok(NULL, " ");
+    }
+    printf("\n");
+    printf("[Pls type any key and enter to continue]\n");
+    scanf("%s",&continue1);
+
+    /// first intro
+
+    system("cls");
+
+
+    char story[]= "'As you settle in, a distant rumble of thunder ripples through the air,\n plunging the room into darkness as the power succumbs to the storm.\n Rain pelts the windows, and the wind howls outside, rattling the panes like a ghostly presence.\n Shadows dance on the walls, and every creak of the old house seems like a whisper from an unseen entity.\n A sense of dread washes over you as the storm intensifies,\n And you can't help but wonder if this night will bring more  than just a peaceful slumber.\n Despite the ominous weather and the unsettling atmosphere, your exhaustion prevails,\n and you're so worn out that, eventually, you succumb to sleep.\n The storm serves as a relentless backdrop to your restless dreams,\n And even in this bad weather, you find yourself drifting into a fitful slumber.\n Yet, as the night deepens, the line between dream and reality blurs, and you begin to sense that YOU'RE NOT ALONE.'";
+    char *token2;
+
+
+    while (getchar() != '\n');
+
+    token2 = strtok(story, " ");
+    while (token2 != NULL)
+    {
+        printf("%s ",token2);
+        fflush(stdout);
+        usleep(100000);
+        token2 = strtok(NULL, " ");
+    }
+    printf("\n");
+
+printf("                                       &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&#&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&#&&&&&\n");usleep(10000);
+printf("                                       &&&&#J?5G#&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&#G5?J#&&&&\n");usleep(10000);
+printf("                                       &&&&&J^~~!?5B#&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&#B5?!~~^J&&&&&\n");usleep(10000);
+printf("                                       &&&&&G~~~~~~~!JB#&&&&&&&&&&&&&&&&&&&&&&&&&&#BY!~~~~~~~G&&&&&\n");usleep(10000);
+printf("                                       &&&&&&J~~~~~~~5&YPBPB&&&&&&&&&&&&&&&&&&BPBPY&5~~~~~~~J&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&#J~~~~~~G@!Y&7~7YP#&&&&&&&&&&#PY7~7&5~@G~~~~~~?#&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&5!~~~~J&PBG!~~~~~?G&&&&&&G?~~~~~~GBP&J~~~~!5&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&#57!~~?BP!~~~~7YG#&&&&&&&GY7!~~~!PBJ~~!75B&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&&&&BP5JJJJY5PB&&&&&&&&&&&&&&BP5YJJJJ5PB&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");usleep(10000);
+printf("                                       BBBBBBBBBBBBBBGGBGGGGGGGGGGBGGGGBBBGGGGGGGGGGGGBBBBBBBBBBBBB\n");usleep(10000);
+printf("                                       .............:^^:^^^^^^^^^^:^^^^:::^^^^^^~^^^^~:............\n");usleep(10000);
+printf("                                       .............^^^~~~~^^~~~^~:^~~~^.:~^~~~^~~~~~^.............\n");usleep(10000);
+    printf("[Pls type any key and enter to continue]\n");
+    scanf("%s",&continue2);
+    system("cls");
+
+
+
+///start for part 3 intro last
+
+    char story3[]= " 'But as you close your eyes and succumb to the allure of sleep,\n you suddenly find yourself standing once more in front of your door and you notice a padlock with a 6 digit need passcode,\n disoriented and bewildered, wondering why you're here again.\n The storm rages on, and a deep sense of foreboding settles over you \n as you contemplate the strange and inexplicable events that have just unfolded.'";
+    char *token3;
+
+
+
+    while (getchar() != '\n');
+
+    token3 = strtok(story3, " ");
+    while (token3 != NULL)
+    {
+        printf("%s ",token3);
+        fflush(stdout);
+        usleep(100000);
+        token3 = strtok(NULL, " ");
+    }
+    printf("\n");
+
+
+
+printf("                                            ..:^~~~~~~^^:.        \n");usleep(10000);
+printf("                                     :!?JJ??7!!~~!!!7?JJJ7~:          \n");usleep(10000);
+printf("                                  ^?YJ!^.               :^7JY7^                          \n");usleep(10000);
+printf("                  .             ^JY~.       ....:.:::..     .~YY^                          \n");usleep(10000);
+printf("                .P#^           JY~.     .:~7????????7?~~^:.   :!5Y.                        \n");usleep(10000);
+printf("                 ^G&^        .5?:^.   .~?J7~^:......:^!?J!::: .:^JG.                       \n");usleep(10000);
+printf("                   ?B^       GJ~7:   .JY^               :?Y:^^. :^YP                       \n");usleep(10000);
+printf("                    :~      JP.~^   .57                   75.~^  ~^G7                      \n");usleep(10000);
+printf("                           :#~~^    Y?                     57^~  ^^7P                      \n");usleep(10000);
+printf("                           5P^~.   !P                      !5^~. :^~B.                     \n");usleep(10000);
+printf("        !GJ:              ^&!~~.   P!                      ~P:7. ::~B             .:^      \n");usleep(10000);
+printf("        ^JGBP7:           YP^!:   ^G                       ?J~~  ::?P         .!?5PPY      \n");usleep(10000);
+printf("           .^~~          .#!^~.   J?                       5!7:  : G?         ^^^:.        \n");usleep(10000);
+printf("                         7#:!7.  .P:.:^~!!777!!~^:.       :P~!.  .:#:                      \n");usleep(10000);
+printf("                         GY~?: :!5#5PP5555Y5PPPGG#P5Y7~:  75~~    7B                       \n");usleep(10000);
+printf("    !~:.                :#~7?YPPY7^:            .:~7YG#&BJG7!:    5J                       \n");usleep(10000);
+printf("   .J5YJ?!:             7#YBP?^      :::!:!^^~:..     .~?G##5^   .B^                  ..:: \n");usleep(10000);
+printf("        ...            :B&5~    :^JY^##P@P@B#@~5&7P!~:    .!P&G~ ~G             .^!?JY5PGJ \n");usleep(10000);
+printf("                     .Y#5:   .~J7!^P~JGBB###&&J#@&@B@5BJ..   :J#PG?              ......    \n");usleep(10000);
+printf("                    ~#G^   .^PJ7:   ?B&&@@@@@@@@@@@@&#P^^P7    :5@7                        \n");usleep(10000);
+printf("                   J@J   .!#5~J?    7#@@@&@@@@@@@@&&&P^ ~!PG~    !&7                       \n");usleep(10000);
+printf("  ?5J?7~^.        Y@J:  :PBGBY?J?^..~PPJ!~!7??JYP@@5:..?&&#BBJ    ~&!                      \n");usleep(10000);
+printf("  :^^:::.        ?@?!. ^GGB@P5GPGG?7~!?5PB&&&##P?YY7J5B&#@@@BB5    7#:          .^~!!!!^   \n");usleep(10000);
+printf("                ^@5!^ :BB&@#&BPGB5^!B@@@@@@@@@@@&PY?Y#&@@@@@P55!    5P           :^~7?Y~   \n");usleep(10000);
+printf("                P@~~. !55P@@@#BBY J@@@@@@@@@@@@@@#PYYY&@@@@@##GP^   ~@^                    \n");usleep(10000);
+printf("               .#B:~  P###@@@@@#.!@@@&@@@@@@@@@@&#BP5PP@@@@@@@#B7   .&?                    \n");usleep(10000);
+printf("               :&P:: .PB@@&&@@@G G@@@@@@@@@@@@@@@@@7#GY@@&&@@@#G?    BP                    \n");usleep(10000);
+printf("   ^?JJJ?!:    .BB..  5G&@@@@@@#.Y@&&@@@@@@@@@@@@@B7@75@@@@@&BBB!   .#5      :7?7!:        \n");usleep(10000);
+printf("   ~J7~^:.      Y@^   ?B&&&@@@@@5.J&#&@@@@@@@@@@@@G&?^&@@@@@&P5Y.   ^@?       :~JP#B!      \n");usleep(10000);
+printf("                :@5   :YYY&@@@@@@P^~555B#&@@@@##BGP!!&@@@@@@@BBJ    J@^           :~.      \n");usleep(10000);
+printf("                 ?@7   :B#@@@@##@@@5~~777???JJJJ?7!Y@@@@@@@@BBY    :@5                     \n");usleep(10000);
+printf("                  Y@7   .5&B&@@&@@@&@#5J??7777775#&#G##@B#@BP?    .BB.                     \n");usleep(10000);
+printf("                   5@7   .!G##@@###&@@&@@@#G5^.^PB##G5G@B7PP^    ^#B:   ^.                 \n");usleep(10000);
+printf("                    Y@Y.   ^!PB?P&@@@@@@@@@@&J. JBPPGGGPG5.  .:.?&Y.    ~P?.               \n");usleep(10000);
+printf("                     ~B#7    :.JP#@&@@@&B@@@&Y  .~55JP?7.   :^?BG~       :G#?.             \n");usleep(10000);
+printf("                       7BB?:     !7?#5B??@#B7^~^?!^Y~:. .:^!5BP~           Y&!             \n");usleep(10000);
+printf("                         !PB57:..   ..~.~?^77^7:~:  ..^^?5GGJ:              .              \n");usleep(10000);
+printf("                           .!YGG5J!~^:.:......:::~~7J5PG5?^                                \n");usleep(10000);
+printf("                               ^!J5PP55YYYJYYY5PPPP5J!^.                                   \n");usleep(10000);
+printf("                                    .:^~~~!!~~~^:.                                         \n");usleep(10000);
+printf("                                                                                           \n");usleep(10000);
+printf("  ^~^~~:::::::::::.  ......................................:^:............:................\n");usleep(10000);
+printf("  ^~~~~.^^^^^^^:::::.                                        .           .^.....           \n");usleep(10000);
+printf("  .:^^. ......................                                           .:..............  \n");usleep(10000);
+
+printf("[Pls type any key and enter to continue]\n");
+scanf("%s",&continue3);
+system("cls");
+do{
+printf("[Do you want to play now?]\n");
+printf("[1] Yes [2] No\n");
+scanf("%d",&yesNo1);
+
+if(yesNo1 == 1)
+{
+    isLoop1=false;
+    system("cls");
+    int loadingscreen;
+    char loading[4] = {'|', '/', '-', '\\'};
+
+    printf("                                                           Loading ");
+    for (loadingscreen = 0; loadingscreen < 50; loadingscreen++) {
+        printf("%c\b", loading[loadingscreen % 4]);
+        fflush(stdout);
+        usleep(100000);
+    }
+
+    printf("Loading Complete\n");
+
+}
+else if(yesNo1 == 2 )
+{
+    printf("okay bye");
+    isLoop1=false;
+}
+else
+{
+    printf("Pls Choose dumbass\n");
+    isLoop1=true;
+}
+}while(isLoop1==true);
+
+
+
+
+
+       return 0;
+}
